@@ -20,5 +20,7 @@ namespace lab26Identity.Data
             base.OnModelCreating(builder);
         }
 
+        public DbSet<lab26Identity.Models.ApplicationUser> ApplicationUser { get; set; }
+
     }
 }
