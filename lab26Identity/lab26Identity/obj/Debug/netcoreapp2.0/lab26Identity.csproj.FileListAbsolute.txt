@@ -1,0 +1,11 @@
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\bin\Debug\netcoreapp2.0\lab26Identity.deps.json
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\bin\Debug\netcoreapp2.0\lab26Identity.runtimeconfig.json
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\bin\Debug\netcoreapp2.0\lab26Identity.runtimeconfig.dev.json
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\bin\Debug\netcoreapp2.0\lab26Identity.dll
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.csprojResolveAssemblyReference.cache
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.csproj.CoreCompileInputs.cache
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.AssemblyInfoInputs.cache
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.AssemblyInfo.cs
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\bin\Debug\netcoreapp2.0\lab26Identity.pdb
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.dll
+C:\Users\admin\codefellows\401\lab26Identity\lab26Identity\lab26Identity\obj\Debug\netcoreapp2.0\lab26Identity.pdb
