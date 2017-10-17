@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using lab26Identity.Models;
 
 namespace lab26Identity
 {
@@ -25,6 +27,9 @@ namespace lab26Identity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddDbContext<lab26IdentityContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("lab26IdentityContext")));
 
         }
 
