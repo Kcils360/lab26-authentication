@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using lab26Identity.Models;
+using lab26Identity.Data;
 
 namespace lab26Identity
 {
@@ -31,12 +32,20 @@ namespace lab26Identity
             services.AddDbContext<lab26IdentityContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("lab26IdentityContext")));
 
+            services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("lab26IdentityContext")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>()
+                    .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseAuthentication();
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
 
             if (env.IsDevelopment())
             {
